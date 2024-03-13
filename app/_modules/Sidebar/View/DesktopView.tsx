@@ -33,10 +33,10 @@ const links: LinkType[] = [
 const DesktopView: FunctionComponent = () => {
   return (
     <div className="hidden md:block">
-      <div className="flex min-h-screen w-[300px] flex-col bg-[#eeecec] text-[#555454] shadow-lg ">
-        <div className="flex flex-col items-center">
+      <div className="flex min-h-screen w-[300px] flex-col bg-[#eeecec]  shadow-lg dark:bg-[#2f2e2e] ">
+        <div className="flex  flex-col items-center">
           <p
-            className={`${HandleeFont.className} mb-[28px] flex flex-row justify-center gap-[20px] pt-[50px] text-[30px] font-bold `}
+            className={`${HandleeFont.className} mb-[28px] w-[280px] gap-[20px] px-[10px] pt-[50px] text-[30px] font-bold `}
           >
             cis <span className="text-pink-300">{`</>`}</span>
           </p>
