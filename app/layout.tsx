@@ -21,9 +21,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
         <Providers>
-          <div className="flex">
-            <Sidebar /> <div className="flex-1">{children}</div>
-          </div>
+          <Sidebar /> <div className="flex-1">{children}</div>
         </Providers>
       </body>
     </html>

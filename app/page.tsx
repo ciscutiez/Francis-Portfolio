@@ -32,9 +32,9 @@ const Home = () => {
   };
 
   return (
-    <div className="flex h-[100vh] bg-[#eeecec] text-center  md:m-5 md:h-[735px] md:rounded-[25px] dark:bg-[#2f2e2e]">
-      <div className="mx-[30px] md:pt-0 pt-[50px] md:my-[100px]">
-        <div className="flex w-full flex-col items-center justify-center pt-[40px]  md:w-[1130px]">
+    <div className="  bg-[#eeecec]    dark:bg-[#2f2e2e]">
+      <div className="min-h-screen  w-full text-center   md:h-[90vh] md:w-full md:rounded-[25px] ">
+        <div className="flex flex-col items-center justify-center pt-[140px]  ">
           <p className="pt-[30px] text-[30px] font-semibold md:text-pretty md:text-[34px]">
             Hello, {`I'm`} {""}
             <span className={`${BarriecitoFont.className} text-[#ff499a] `}>
@@ -56,7 +56,7 @@ const Home = () => {
             </span>
           </div>
           <div>
-            <p className="h-[100px] w-full  pt-[50px]  text-justify text-[16px] md:w-[550px] md:text-[20px] ">
+            <p className="px-[20px] h-[100px]  w-full  pt-[50px] text-justify text-[16px] md:w-[550px] md:text-[20px]">
               &nbsp; &nbsp; &nbsp; I am a Developer from Philippines. I ❤️
               designing and building dynamic websites. My expertise is to create
               website, graphic design, electrical installation, and more...

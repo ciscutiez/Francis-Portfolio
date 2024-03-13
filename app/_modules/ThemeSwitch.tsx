@@ -27,7 +27,7 @@ export default function ThemeSwitch() {
         className={`m-[2px] flex w-[120px] items-center gap-2 rounded pl-[20px] ${isActive ? "" : "bg-[#232322]"} ${isActive ? "pointer-events-none" : ""}`}
       >
         <IoMdSunny
-          className={`text-[28px] ${isActive ? "text-[#fcfcfb]" : "text-[#a4a4a4]"}`}
+          className={`text-[28px] ${isActive ? "text-[#fcfcfb]" : "text-[#ff499a]"}`}
         />
         Light
       </span>
@@ -35,7 +35,7 @@ export default function ThemeSwitch() {
         className={`m-[2px] flex w-[120px] items-center gap-2 rounded pl-[20px] ${isActive ? "bg-[#232322]" : ""} ${isActive ? "pointer-events-none" : ""}`}
       >
         <IoMdMoon
-          className={`text-[28px] ${isActive ? "text-[#a4a4a4]" : "text-[#fcfcfb]"}`}
+          className={`text-[28px] ${isActive ? "text-[#ff499a]" : "text-[#fcfcfb]"}`}
         />
         Dark
       </span>

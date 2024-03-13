@@ -43,7 +43,7 @@ const MobileView: FunctionComponent = () => {
   return (
     <div className=" block md:hidden">
       <div
-        className={`fixed z-[100] flex h-[65px] w-full flex-row items-center justify-between bg-[#dad8d8]  px-[20px] `}
+        className={`fixed z-[100] flex h-[65px] w-full flex-row items-center justify-between  bg-[#7b7b78] px-[20px] `}
       >
         <Link href="/">
           <p
@@ -69,7 +69,7 @@ const MobileView: FunctionComponent = () => {
       </div>
 
       {navOpen && (
-        <div className="fixed mx-[80px] mt-[600px] flex h-[50px] w-[300px] flex-row items-center justify-evenly gap-[10px] rounded-full bg-slate-300 bg-transparent shadow-lg">
+        <div className="fixed left-[15%] mt-[600px] flex h-[50px] w-[300px] flex-row items-center justify-evenly gap-[10px] rounded-full bg-[#7b7b78]  shadow-lg ">
           {links.map((link: LinkType, index: number) => (
             <Link
               key={index}

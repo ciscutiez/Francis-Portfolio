@@ -69,15 +69,17 @@ const Page = () => {
     setIsModalOpen(false);
   };
   return (
-    <div className="m-0 flex h-full w-full bg-[#eeecec] md:m-5 md:h-[735px] md:rounded-[25px] dark:bg-[#2f2e2e] ">
-      <div className="m-[10px] flex flex-col py-[60px]  md:px-[50px] md:py-[75px] ">
-        <h1 className="pt-[30px] text-[24px] font-bold md:pt-0">My Work</h1>
+    <div className="  bg-[#eeecec] md:h-full md:w-full text-center dark:bg-[#2f2e2e] ">
+      <div className="m-[0px] flex flex-col py-[60px]   md:py-[20px] ">
+        <h1 className="pt-[30px]  text-[24px] font-bold md:pt-0">
+          My Work
+        </h1>
         <div
-          className="flex flex-col items-center justify-center gap-[20px] md:flex md:flex-row md:items-center md:justify-evenly md:px-[70px] md:pt-[40px]
+          className="  gap-[20px]  flex flex-col items-center justify-center md:pt-[40px]
         "
         >
           {cardData.map((card, index) => (
-            <div key={index}>
+            <div key={index} className="">
               <Card
                 title={card.title}
                 description={card.description}

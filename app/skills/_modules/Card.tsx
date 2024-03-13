@@ -31,7 +31,7 @@ const Card: FunctionComponent<CardProps> = ({
   return (
     //container
     <div
-      className={`${UbuntoMono.className}  flex h-[400px] w-[300px] cursor-not-allowed flex-col rounded border-[3px] border-[#571c51]  bg-transparent text-[#72243f] shadow-lg md:h-[500px] md:w-[500px]`}
+      className={`${UbuntoMono.className}  flex h-[400px] w-[300px] cursor-not-allowed flex-col rounded border-[3px] border-[#571c51]  text-[#72243f] bg-white shadow-lg md:h-[500px] md:w-[500px]`}
     >
       <div className="mx-[30px]">
         <div className="flex flex-row items-center justify-center gap-[10px] pt-[20px] text-center md:pt-[25px]">

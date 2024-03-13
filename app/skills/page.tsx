@@ -5,8 +5,8 @@ import { FaLaptopCode, FaPalette } from "react-icons/fa";
 
 const page = () => {
   return (
-    <div className=" m-0   bg-[#eeecec] pb-[80px] md:m-5 md:h-[735px] md:rounded-[25px] dark:bg-[#2f2e2e]">
-      <div className="flex flex-col items-center  gap-[20px] pt-[80px] md:flex md:flex-row md:justify-evenly md:pt-[120px]">
+    <div className="   bg-[#eeecec] min-h-screen pb-[80px]  md:rounded-[25px] dark:bg-[#2f2e2e]">
+      <div className="flex flex-col items-center  gap-[20px] pt-[100px] md:flex md:flex-row md:justify-evenly md:pt-[190px]">
         <Card
           icon={<FaPalette />}
           title=" Design"

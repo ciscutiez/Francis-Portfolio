@@ -19,7 +19,14 @@ const Card: React.FunctionComponent<CardProps> = ({
 }) => {
   return (
     <div className="flex h-[450px] w-[400px] flex-col gap-[10px] rounded pt-[10px]  text-center shadow-md  md:h-[470px] md:w-[450px]">
-      <Image alt="" src={src} className="m-[5px]" width={440} height={300} />
+      <Image
+        alt=""
+        src={src}
+        className="px-[5px]"
+        width={450}
+        height={290}
+        sizes="(max-width: 768px) 100vw, 33vw"
+      />
       <h1 className="text-lg font-semibold">{title}</h1>
       <p className="mx-[50px]">{description}</p>
 
