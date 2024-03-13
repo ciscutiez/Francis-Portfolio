@@ -1,11 +1,14 @@
 ## Project 
 
-You can check out this ([https://github.com/vercel/next.js/](https://francis-portfolio-two.vercel.app/)) - your feedback and contributions are welcome!
+You can check out this 
+```bash ([https://github.com/vercel/next.js/](https://francis-portfolio-two.vercel.app/)) ```
+- your feedback and contributions are welcome!
 
 ## To Clone this project 
 First, do this on the terminal
+```bash
 git clone https://github.com/ciscutiez/Francis-Portfolio.git
-
+```
 ## Getting Started
 
 First, run the development server:
