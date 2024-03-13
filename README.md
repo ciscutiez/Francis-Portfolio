@@ -1,3 +1,7 @@
+## Project 
+
+You can check out this ([https://github.com/vercel/next.js/](https://francis-portfolio-two.vercel.app/)) - your feedback and contributions are welcome!
+
 ## To Clone this project 
 First, do this on the terminal
 git clone https://github.com/ciscutiez/Francis-Portfolio.git
@@ -17,5 +21,4 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 
 
-You can check out this ([https://github.com/vercel/next.js/](https://francis-portfolio-two.vercel.app/)) - your feedback and contributions are welcome!
 
