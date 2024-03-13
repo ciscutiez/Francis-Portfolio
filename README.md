@@ -2,7 +2,7 @@
 
 You can check out this project your feedback and contributions are welcome!
 ```bash
-https://github.com/vercel/next.js/](https://francis-portfolio-two.vercel.app/
+https://francis-portfolio-two.vercel.app/
 ```
 
 
