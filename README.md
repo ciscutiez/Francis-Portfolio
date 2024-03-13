@@ -1,8 +1,10 @@
 ## Project 
 
-You can check out this 
-```bash ([https://github.com/vercel/next.js/](https://francis-portfolio-two.vercel.app/)) ```
-- your feedback and contributions are welcome!
+You can check out this project your feedback and contributions are welcome!
+```bash 
+([https://github.com/vercel/next.js/](https://francis-portfolio-two.vercel.app/))
+```
+
 
 ## To Clone this project 
 First, do this on the terminal
