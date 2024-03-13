@@ -1,8 +1,8 @@
 ## Project 
 
 You can check out this project your feedback and contributions are welcome!
-```bash 
-([https://github.com/vercel/next.js/](https://francis-portfolio-two.vercel.app/))
+```bash
+https://github.com/vercel/next.js/](https://francis-portfolio-two.vercel.app/
 ```
 
 
