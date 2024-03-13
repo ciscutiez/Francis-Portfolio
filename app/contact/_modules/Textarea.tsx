@@ -15,7 +15,7 @@ const Textarea = ({ label, name, ...props }: TextAreaProps) => {
         {...field}
         {...props}
         placeholder="Leave a message here..."
-        className="h-[400px] w-[400px] grow rounded border-2 border-[#575555] bg-[#fafafa] pl-1 pt-2 focus:border-b-2  focus:border-[#575555] focus:outline-none md:h-[200px] md:w-[400px]"
+        className="h-[150px] w-[350px] grow rounded border-2 border-[#575555] bg-[#eeecec]    pl-1 pt-2 focus:border-b-2 focus:border-[#575555]  focus:outline-none md:h-[200px] md:w-[400px] dark:bg-[#2f2e2e]"
       />
       {meta.touched && meta.error ? (
         <div className="pt-[2px] text-sm text-red-600">{meta.error}</div>

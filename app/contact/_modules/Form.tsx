@@ -39,7 +39,7 @@ const ContactForm = () => {
       initialValues={initialValues}
       onSubmit={handleSubmit}
     >
-      <Form>
+      <Form className="flex items-center justify-center flex-col">
         <Input label="Full Name" placeholder="Full Name" name="fullname" />
         <Input
           label="Email"
