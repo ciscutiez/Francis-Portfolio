@@ -6,6 +6,7 @@ import Typewriter from "typewriter-effect";
 import { FaArrowRight } from "react-icons/fa6";
 import Icons from "./_modules/Icons";
 import { FaGithub, FaLinkedin, FaSlack } from "react-icons/fa";
+import ThemeSwitch from "./_modules/ThemeSwitch";
 
 type Typewriter = {};
 const BarriecitoFont = Barriecito({
@@ -63,8 +64,8 @@ const Home = () => {
               designing and building dynamic websites. My expertise is to create
               website, graphic design, electrical installation, and more...
             </p>
-            <div className=" mt-[200px] flex flex-row items-center justify-center gap-[5px] px-[16px] py-[10px] md:mt-[120px]">
-              <div className="flex flex-row justify-center gap-[10px] ">
+            <div className=" mt-[180px] flex flex-col items-center justify-center gap-[5px] px-[16px] py-[10px] md:mt-[120px]">
+              <div className="flex flex-row justify-center gap-[10px] pb-[20px] ">
                 <Icons
                   icon={<FaSlack />}
                   href="francischarlesi.gonzales@gmail.com"
@@ -77,6 +78,9 @@ const Home = () => {
                   icon={<FaLinkedin />}
                   href="https://www.linkedin.com/in/ciscutie/"
                 />
+              </div>
+              <div className="block md:hidden">
+                <ThemeSwitch />
               </div>
             </div>
           </div>

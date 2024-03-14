@@ -64,7 +64,7 @@ const MobileView: FunctionComponent = () => {
       </div>
 
       {navOpen && (
-        <div className="fixed left-[15%] mt-[630px] flex h-[50px] w-[300px] flex-row items-center justify-evenly gap-[10px] rounded-full bg-[#7b7b78]  shadow-lg ">
+        <div className="fixed left-[15%] mt-[610px] flex h-[50px] w-[300px] flex-row items-center justify-evenly gap-[10px] rounded-full bg-[#7b7b78]  shadow-lg ">
           {links.map((link: LinkType, index: number) => (
             <Link
               key={index}
@@ -74,6 +74,7 @@ const MobileView: FunctionComponent = () => {
               {link.icon}
             </Link>
           ))}
+         
         </div>
       )}
     </div>
