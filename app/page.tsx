@@ -4,6 +4,8 @@ import { Barriecito } from "next/font/google";
 
 import Typewriter from "typewriter-effect";
 import { FaArrowRight } from "react-icons/fa6";
+import Icons from "./_modules/Icons";
+import { FaGithub, FaLinkedin, FaSlack } from "react-icons/fa";
 
 type Typewriter = {};
 const BarriecitoFont = Barriecito({
@@ -56,15 +58,26 @@ const Home = () => {
             </span>
           </div>
           <div>
-            <p className="px-[20px] h-[100px]  w-full  pt-[50px] text-justify text-[16px] md:w-[550px] md:text-[20px]">
+            <p className="h-[100px] w-full  px-[20px]  pt-[50px] text-justify text-[16px] md:w-[550px] md:text-[20px]">
               &nbsp; &nbsp; &nbsp; I am a Developer from Philippines. I ❤️
               designing and building dynamic websites. My expertise is to create
               website, graphic design, electrical installation, and more...
             </p>
             <div className=" mt-[200px] flex flex-row items-center justify-center gap-[5px] px-[16px] py-[10px] md:mt-[120px]">
-              <button className="text-[18px] font-semibold text-[#ff499a]">
-                More info {`>`}
-              </button>
+              <div className="flex flex-row justify-center gap-[10px] ">
+                <Icons
+                  icon={<FaSlack />}
+                  href="francischarlesi.gonzales@gmail.com"
+                />
+                <Icons
+                  icon={<FaGithub />}
+                  href="https://github.com/ciscutiez"
+                />
+                <Icons
+                  icon={<FaLinkedin />}
+                  href="https://www.linkedin.com/in/ciscutie/"
+                />
+              </div>
             </div>
           </div>
         </div>

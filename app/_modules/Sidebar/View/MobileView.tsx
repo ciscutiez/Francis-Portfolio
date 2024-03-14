@@ -43,26 +43,21 @@ const MobileView: FunctionComponent = () => {
   return (
     <div className=" block md:hidden">
       <div
-        className={`fixed z-[100] flex h-[65px] w-full flex-row items-center justify-between  bg-[#7b7b78] px-[20px] `}
+        className={`fixed z-[100] flex h-[85px] w-full flex-row items-center justify-between  bg-[#474747] px-[20px] text-[#ff499a] `}
       >
         <Link href="/">
-          <p
-            className={`${HandleeFont.className}    text-[26px] font-bold text-[#5f6161]`}
-          >
+          <p className={`${HandleeFont.className}    text-[26px] font-bold `}>
             cis {`</>`}
           </p>
         </Link>
 
         <div className="">
           {navOpen ? (
-            <GrClose
-              onClick={toggleNav}
-              className="cursor-pointer text-2xl text-[#5f6161]"
-            />
+            <GrClose onClick={toggleNav} className="cursor-pointer text-2xl " />
           ) : (
             <GiHamburgerMenu
               onClick={toggleNav}
-              className="cursor-pointer text-2xl text-[#5f6161]"
+              className="cursor-pointer text-2xl "
             />
           )}
         </div>
@@ -74,7 +69,7 @@ const MobileView: FunctionComponent = () => {
             <Link
               key={index}
               href={link.href}
-              className={`${InterFont.className}  pt-[3px] text-[30px] transition duration-300 hover:text-[#5f6161]`}
+              className={`${InterFont.className}  pt-[3px] text-[30px] text-[#e7e4e7] transition duration-300 hover:text-[#5f6161]`}
             >
               {link.icon}
             </Link>

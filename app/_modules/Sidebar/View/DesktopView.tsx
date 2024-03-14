@@ -50,11 +50,7 @@ const DesktopView: FunctionComponent = () => {
           ))}
         </div>
 
-        {/* <div className="flex flex-row justify-center gap-[10px] pt-[150px]">
-          <Icons icon={<FaSlack />} />
-          <Icons icon={<FaGithub />} />
-          <Icons icon={<FaLinkedin />} />
-        </div> */}
+        
         <div className="pt-[10px]">
           <ThemeSwitch />
         </div>
