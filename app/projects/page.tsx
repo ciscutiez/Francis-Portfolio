@@ -11,7 +11,7 @@ interface Project {
   description: string;
   techStack: string[];
 }
-const cardData = [
+export const cardData = [
   {
     title: "Apexpoint",
     description:

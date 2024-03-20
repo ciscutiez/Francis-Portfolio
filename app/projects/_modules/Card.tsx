@@ -18,7 +18,7 @@ const Card: React.FunctionComponent<CardProps> = ({
   onClick,
 }) => {
   return (
-    <div className="flex h-[450px] w-[400px] flex-col gap-[10px] rounded pt-[10px]  text-center shadow-md  md:h-[470px] md:w-[450px]">
+    <div className="flex h-[450px] w-[400px] flex-col gap-[10px] rounded border border-black bg-white pt-[10px] text-center  shadow-md md:h-[470px] md:w-[450px]  dark:border-white dark:text-black">
       <Image
         alt=""
         src={src}
@@ -32,7 +32,7 @@ const Card: React.FunctionComponent<CardProps> = ({
 
       <div className="flex flex-row justify-center gap-2 py-[20px]">
         <button
-          className="rounded border border-green-900 px-[20px] py-[10px]"
+          className="mt-4  rounded  border border-black bg-[#ff499a] px-4 py-2 hover:bg-[#ff499bd8]"
           onClick={onClick}
         >
           Learn More
