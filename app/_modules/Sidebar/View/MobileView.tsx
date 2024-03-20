@@ -63,20 +63,21 @@ const MobileView: FunctionComponent = () => {
         </div>
       </div>
 
-      {navOpen && (
-        <div className="fixed left-[15%] mt-[610px] flex h-[50px] w-[300px] flex-row items-center justify-evenly gap-[10px] rounded-full bg-[#7b7b78]  shadow-lg ">
-          {links.map((link: LinkType, index: number) => (
-            <Link
-              key={index}
-              href={link.href}
-              className={`${InterFont.className}  pt-[3px] text-[30px] text-[#e7e4e7] transition duration-300 hover:text-[#5f6161]`}
-            >
-              {link.icon}
-            </Link>
-          ))}
-         
-        </div>
-      )}
+      <div className="flex justify-center">
+        {navOpen && (
+          <div className="fixed  mt-[610px] flex h-[50px] w-[300px] flex-row items-center justify-evenly gap-[10px] rounded-full border border-black bg-[#ff499a]  shadow-lg hover:bg-[#ff499bd8] ">
+            {links.map((link: LinkType, index: number) => (
+              <Link
+                key={index}
+                href={link.href}
+                className={`${InterFont.className}  pt-[3px] text-[30px] text-black transition duration-300 hover:text-[#5f6161]`}
+              >
+                {link.icon}
+              </Link>
+            ))}
+          </div>
+        )}
+      </div>
     </div>
   );
 };

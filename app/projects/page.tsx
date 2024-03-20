@@ -5,13 +5,15 @@ import Apexpoint from "./_assets/Apexpoint.png";
 import FormApp from "./_assets/FormApp.png";
 import ChatApp from "./_assets/ChatApp.png";
 import Modal from "./_modules/Modal";
+import { StaticImageData } from "next/image";
 
 interface Project {
   title: string;
   description: string;
+  src: StaticImageData;
   techStack: string[];
 }
-export const cardData = [
+ const cardData: Project[] = [
   {
     title: "Apexpoint",
     description:
@@ -31,10 +33,7 @@ export const cardData = [
       "Shadcn",
       "Express",
       "Node.js",
-      "Framer Motion",
-      "Axios",
-      "Zustand",
-      "Formik",
+      "MongoDB",
     ],
   },
   {
@@ -50,7 +49,6 @@ export const cardData = [
       "TailwindCSS",
       "Daisy UI",
       "Express.js",
-      "Zustand",
     ],
   },
 ];
@@ -69,13 +67,11 @@ const Page = () => {
     setIsModalOpen(false);
   };
   return (
-    <div className="  bg-[#eeecec] md:h-full md:w-full text-center dark:bg-[#2f2e2e] ">
+    <div className="  bg-[#eeecec] text-center md:h-[100vh] md:w-full dark:bg-[#2f2e2e] ">
       <div className="m-[0px] flex flex-col py-[60px]   md:py-[20px] ">
-        <h1 className="pt-[30px]  text-[24px] font-bold md:pt-0">
-          My Work
-        </h1>
+        <h1 className="my-[40px]  text-[24px] font-bold md:my-0">My Work</h1>
         <div
-          className="  gap-[20px]  flex flex-col items-center justify-center md:pt-[40px]
+          className="flex flex-col items-center  justify-center gap-[20px] md:flex md:flex-row md:items-center md:pt-[150px]
         "
         >
           {cardData.map((card, index) => (

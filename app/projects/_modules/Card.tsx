@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { StaticImageData } from "next/image";
-import Button from "./Button";
+
 
 interface CardProps {
   title: string;
@@ -18,12 +18,12 @@ const Card: React.FunctionComponent<CardProps> = ({
   onClick,
 }) => {
   return (
-    <div className="flex h-[450px] w-[400px] flex-col gap-[10px] rounded border border-black bg-white pt-[10px] text-center  shadow-md md:h-[470px] md:w-[450px]  dark:border-white dark:text-black">
+    <div className="flex h-[450px] w-[365px] flex-col gap-[10px] rounded border border-black bg-white pt-[10px] text-center  shadow-md md:h-[470px] md:w-[400px]  dark:border-white dark:text-black">
       <Image
         alt=""
         src={src}
         className="px-[5px]"
-        width={450}
+        width={400}
         height={290}
         sizes="(max-width: 768px) 100vw, 33vw"
       />
@@ -32,7 +32,7 @@ const Card: React.FunctionComponent<CardProps> = ({
 
       <div className="flex flex-row justify-center gap-2 py-[20px]">
         <button
-          className="mt-4  rounded  border border-black bg-[#ff499a] px-4 py-2 hover:bg-[#ff499bd8]"
+          className="mt-4  rounded px-4 py-2  border border-black bg-[#ff499a]  hover:bg-[#ff499bd8]"
           onClick={onClick}
         >
           Learn More

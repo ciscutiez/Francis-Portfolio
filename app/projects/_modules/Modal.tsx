@@ -20,12 +20,12 @@ const Modal: React.FC<ModalProps> = ({ project, closeModal }) => {
 
   const projectLink = projectLinks.find((p) => p.title === project.title);
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 backdrop-blur-sm ">
+    <div className="fixed inset-0 mt-[50px] flex items-center justify-center bg-black bg-opacity-50 backdrop-blur-sm">
       <div className="m-2 w-[500px] rounded-lg bg-white p-8 dark:text-black">
         <h2 className="text-2xl font-bold">{project.title}</h2>
         <p className="my-4">{project.description}</p>
         <p className="font-semibold">Tech Stack:</p>
-        <ul className=" pl-6">
+        <ul className=" pl-6 text-[14px] md:text-[16px]">
           {project.techStack.map((tech) => (
             <li key={tech}>{tech}</li>
           ))}
